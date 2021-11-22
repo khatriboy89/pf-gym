@@ -4,6 +4,7 @@ const Port=process.env.PORT||3000;
 const app=express();
 const Home=fs.readFileSync('./view/index.html')
 //routes
+app.use('/static',express.static('static'))
 app.get('/',(req,res)=>{
     res.setHeader('Content-Type','text/html');
     res.send(Home);

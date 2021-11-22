@@ -1,0 +1,84 @@
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('https://as1.ftcdn.net/v2/jpg/02/06/90/26/1000_F_206902689_pHS8Toj2LhWneXetEHgRDSJ2r1mRlo1Q.jpg');
+    height: 50%;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.right{
+    display: inline;
+    position: absolute;
+    right: 40px;
+    top: 22px;
+
+   
+}
+.mid{
+    display: block;
+    width: 45%;
+    margin: 28px auto;
+   
+}
+.left{
+    
+    display: inline;
+    position: absolute;
+    left: 70px;
+    top: 22px;
+   
+}
+.left img {
+    width: 100px;
+    padding: 0px 24px;
+    cursor: pointer;
+}
+.left div{
+    line-height: 19px;
+    font-size: 22px;
+    text-align: center;
+}
+.nav {
+    
+    display: inline;
+
+}
+.nav li{
+    
+    display: inline-block;
+    font-size:24px;
+    
+}
+.nav li a{
+    color: rgb(245, 239, 239);
+    text-decoration: none;
+    padding: 20px 28px ;
+}
+.nav li a:hover {
+    text-decoration: underline;
+    color: rgba(204, 71, 71, 0.644);
+}
+.btu{
+    margin: 0px 10px;
+    background-color: black;
+    color: white;
+    padding: 5px 16px;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.container{
+    border: 2px solid white;
+    margin: 99px 28px;
+    padding: 80px;
+    width: 20%;
+    border-radius: 28px;
+}
+.group_form input{
+    text-align: center;
+    margin: 6px;
+}
